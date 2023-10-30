@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #582118;
+}
+
+.header{
+    position: relative;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+
+.headerImg{
+   width: 100vw;
+   height: 302.8vw;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.due-date{
+    background-color: #923E11;
+    opacity: 0.7;
+    border-radius: 2.67vw;
+    padding: 1.6vw 4vw 1.33vw 3.33vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    width: 6.13vw;
+    height: 6.13vw;
+    background-color: #501C13;
+    border: 1px solid #FFDD76;
+    border-radius: 1.33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bxTxt{
+    width: 3.6vw;
+    height: 2.53vw;
+    font-size: 3.46;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #E8D62E;
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: white;
+}
+
+.colon{
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #E8D62E;
+}
+.bgBeansImg{
+    width: 9.73vw;
+    height: 8.26vw;
+    opacity: 0.9;
+    position: relative;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.bgBeansImg1{
+    width: 9.73vw;
+    height: 8.26vw;
+    opacity: 0.9;
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+.bgPg{
+    background-image: url(./Final\ Reward\ For\ Millionarie\ Medal（压缩）/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 5.33vw;
+    padding-inline-start: 5.33vw;
+    padding-inline-end: 8.66vw;
+    font-size: 3.7333vw;
+    margin-top: 5.33vw;
+    color: white;
+    text-align: center;
+}
+.text{
+    color: linear-gradient(0deg, #E7842C 0%);
+    background: linear-gradient(0deg, #FFCC19 0%, #FEFEE1 99.267578125%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    width: 24.67vw;
+    height: 2.4vw;
+}
+.title1{
+    width: 24.67vw;
+    height: 2.4vw;
+    transform: scaleX(-1);
+}
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.rewardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.rewardTxt{
+    font-size: 3.46vw;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #F8CA9D;
+    opacity: 0.6;
+}
+.image_arrow{
+    width: 4.67vw;
+    height: 1.47vw;
+}
+
+.medalReqRewardsWrapper{
+    width: 93.34vw;
+    height: 6.67vw;
+    background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/pskesc9w47spsjgm9zrnceldank2eo70ut6dc421f2-989a-4ad2-9cf2-f22c9cd550a7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+}
+
+.textMRR{
+    width: 10.27vw;
+    height: 2.54vw;
+    font-size: 3.2vw;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.listOfItemsContainer{
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+}
+
+.listOfItemsContainer1{
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+}
+
+.listItemRewards{
+    width: 93.34vw;
+    height: 18.67vw;
+    background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/pspejnudk29fa40uwqipw0fvuk415j1w6q63034b1f-9757-4ad9-b797-fdb163b25d21);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* opacity: 0.3; */
+    border-radius: 2.67vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.badge5{
+    width: 11.6vw;
+    height: 10.27vw;
+}
+
+.commTxt{
+    width: 35.73vw;
+    height: 8vw;
+    font-size: 3.47vw;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 5.2vw;
+}
+
+.iconNum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badgeAmount{
+    font-size: 2.67vw;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFEEBB;
+    opacity: 0.6;
+}
+.contactUs{
+    color: white;
+    text-align: center;
+    font-size: 2.93vw;
+}
+.contactTxt{
+    width: 7.74vw;
+    height: 2.54vw;
+    position: relative;
+    top: 2vw;
+}
+
+.wordLine {
+    width: 190px; /* Set the width of the line */
+    height: 1px; /* Set the height of the line */
+    background-color: black; /* Set the line's color */
+    margin: 10px auto; /* Center the line horizontally with margin */
+    background-color: white;
+}
+
+.rights{
+    color: #FFFFFF;
+    font-size: 2.87vw;
+}
+
+.medalContainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* .lang{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    right: 1vw;
+    border-radius: 5vw;
+} */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding:8.4vw 0 7.866vw ;
+}
+
+#lang{
+    position: absolute;
+    top: 1vw;
+    right: 2vw;
+    border: 3px solid #B05127;
+    border-radius: 2.53vw;
+    z-index: 9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800px' height='800px' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M17.9188 8.17969H11.6888H6.07877C5.11877 8.17969 4.63877 9.33969 5.31877 10.0197L10.4988 15.1997C11.3288 16.0297 12.6788 16.0297 13.5088 15.1997L15.4788 13.2297L18.6888 10.0197C19.3588 9.33969 18.8788 8.17969 17.9188 8.17969Z' fill='%23292D32'/%3E%3C/svg%3E");
+    width: 20.13vw;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 5vw;
+    padding: 0.933vw 1.53vw;
+}
